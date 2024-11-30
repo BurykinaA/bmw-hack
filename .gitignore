@@ -1,3 +1,4 @@
 *.csv
 *.pdf
 catboost_info
+kaggle/weather.csv
