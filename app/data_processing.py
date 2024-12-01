@@ -94,8 +94,8 @@ class SmartNormalizerDF:
         return df
 
 
-def add_weather_data(df):
-    weather_df = pd.read_csv("weather.csv")
+def add_weather_data(df, weather_data_path = "weather.csv"):
+    weather_df = pd.read_csv(weather_data_path)
     weather_df = weather_df.rename(columns={"date": "message_timestamp"})
     # round message_timestamp to nearest hour, remove timezone from both
     weather_df["message_timestamp"] = weather_df["message_timestamp"].apply(
