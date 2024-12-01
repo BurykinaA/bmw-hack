@@ -1,3 +1,5 @@
 *.csv
 *.pdf
 catboost_info
+myenv/
+__pycache__/
