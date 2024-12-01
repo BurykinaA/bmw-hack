@@ -1,2 +1,6 @@
 *.csv
 *.pdf
+catboost_info
+kaggle/weather.csv
+myenv/
+__pycache__/
